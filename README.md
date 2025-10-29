@@ -232,15 +232,5 @@ The application is fully responsive and works on:
 - Automatic token refresh handling
 - Secure password handling (frontend validation)
 
-## Future Enhancements
 
-- Push notifications for request updates
-- Advanced search and filtering
-- Equipment reservation calendar
-- File upload for equipment images
-- Email notifications
-- Mobile app version
 
-## License
-
-This project is developed for educational purposes as part of a school equipment lending management system.
