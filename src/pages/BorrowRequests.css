@@ -1,0 +1,94 @@
+.borrow-requests-page h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.filters-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.status-filters {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.requests-table-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+.equipment-info strong {
+  color: #333;
+}
+
+.equipment-info small {
+  color: #666;
+}
+
+.notes-cell {
+  max-width: 200px;
+}
+
+.user-notes,
+.admin-notes {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.user-notes {
+  background-color: #f8f9fa;
+  border-left: 3px solid #007bff;
+}
+
+.admin-notes {
+  background-color: #fff3cd;
+  border-left: 3px solid #ffc107;
+}
+
+.user-notes strong,
+.admin-notes strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.no-requests {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.no-requests p {
+  margin-bottom: 1rem;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .status-filters {
+    justify-content: center;
+  }
+  
+  .requests-table-container {
+    font-size: 0.9rem;
+  }
+  
+  .notes-cell {
+    max-width: 150px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+}

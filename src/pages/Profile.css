@@ -1,0 +1,66 @@
+.profile-page h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.profile-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.user-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: fit-content;
+}
+
+.user-card h2 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.user-card p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.user-card strong {
+  color: #333;
+}
+
+.profile-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-form h3 {
+  margin: 0 0 1.5rem 0;
+  color: #333;
+}
+
+.profile-form h4 {
+  margin: 1.5rem 0 1rem 0;
+  color: #333;
+}
+
+.profile-form hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+  .profile-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .user-card,
+  .profile-form {
+    padding: 1.5rem;
+  }
+}
