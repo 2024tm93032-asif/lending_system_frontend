@@ -36,7 +36,7 @@ export const mockEquipment = [
     total_quantity: 5,
     available_quantity: 3,
     created_by: 1,
-    created_at: '2024-01-01T00:00:00Z'
+    created_at: '2024-01-01T00:00:00Z' 
   },
   {
     id: 2,
